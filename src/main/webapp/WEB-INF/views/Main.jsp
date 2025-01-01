@@ -6,217 +6,7 @@
 <meta charset="UTF-8">
 <title>Naya's Portfolio</title>
 </head>
-<style>
-@font-face {
-    font-family: 'JalnanGothic';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'NEXON Lv2 Gothic';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv2 Gothic.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-body {
-	margin : 0;
-}
-
-/* 프로필 Wrap */
-.ProfileWrap {
-	padding-top: 100px;
-	width: 100%;
-	height: 100%;
-	max-height: 1200px;
-	background-color: #DDECCA;
-	display: flex;
-}
-
-/* Profile 왼쪽 div */
-.Pr_LeftContent {
-	flex: 2;
-	display: flex;
-	padding-left: 10%; 
-}
-
-/* 이름 */
-.Pr_Name {
-	padding-top: 10%;
-	font-family: 'NEXON Lv2 Gothic';
-	font-weight: 700;
-	font-size: 5em;
-}
-
-/* 개발 직군 */
-.Pr_Dev {
-	padding-top: 2%;
-	font-family: 'NEXON Lv2 Gothic';
-	font-size: 2em;
-	font-color: gray;
-}
-
-/* 한줄 소개 */
-.Pr_Bio {
-	margin-top: 10%;
-	font-family: 'NEXON Lv2 Gothic';
-	font-size: 2em;
-}
-
-/* 각종 로고 */
-
-.Pr_ToolLogo {
-	display: flex;
-	margin-top: 40%;
-}
-
-/* Github */
-
-.github {
-	background-color: white;
-	border-radius: 50%; 
-	width: 50px; 
-	height: 50px; 
-	display: flex; 
-	justify-content: center;
-	align-items: center;
-	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); 
-}
-
-.github a {
-	display: flex; 
-	justify-content: center;
-	align-items: center;
-	width: 100%; /
-	height: 100%;
-	text-decoration: none; 
-}
-
-.githubLogo {
-	width: 100%; 
-	height: auto; 
-}
-
-.github:hover {
-	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-	transform: scale(1.1); 
-}
-
-.githubLogo:hover {
-	transform: scale(1.1);
-}
-
-/* Velog */
-.velog {
-	margin-left: 25px;
-	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-	width: 50px; 
-	height: 50px;
-	border-radius: 50%; 
-}
-
-.velogLogo {
-	border-radius: 50%; 
-	width: 50px; 
-	height: 50px;
-}
-
-.velogLogo {
-	width: 100%; 
-	height: auto; 
-}
-
-.velog:hover {
-	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-	transform: scale(1.1); 
-}
-
-.velogLogo:hover {
-	transform: scale(1.1);
-}
-
-/* Profile 오른쪽 div */
-.Pr_RightContent {
-	flex: 1;
-	display: flex;
-	justify-content: flex-end;
-}
-
-/* 프로필 이미지 */
-.Pr_Img {
-	width: 80%;
-	height: auto;
-	margin: 0;
-}
-
-
-/* 기술 스택 */
-.what-i-do-container {
-    max-width: 1500px;
-    margin: 0 auto;
-    padding: 50px 20px;
-}
-
-.title-section {
-    margin-bottom: 40px;
-}
-
-.title-section h1 {
-    font-size: 2.5em;
-    color: #222;
-    margin-bottom: 10px;
-    border-left: 4px solid #22b573;
-    padding-left: 30px;
-}
-
-.title-section p {
-    font-size: 1.2em;
-    color: #555;
-}
-
-/* Cards container */
-.cards-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    max-width: 1300px;
-}
-
-/* Single card */
-.card {
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    text-align: left;
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-}
-
-.card .icon img {
-    width: 25px;
-    height: 25px;
-}
-
-.card h2 {
-    font-size: 1.5em;
-    color: #222;
-    margin-bottom: 10px;
-    margin: 0;
-}
-
-.card p {
-    font-size: 1em;
-    color: #666;
-    line-height: 1.5;
-}
-</style>
+<link rel="stylesheet" href="/css/Main.css">
 <body>
 <div class="MainContainer">
 	
@@ -254,6 +44,8 @@ body {
 		</div>
 	</div>
 	
+	
+	
 	<!-- 스택 관련 div -->
 	<div class="what-i-do-container">
 	
@@ -265,81 +57,212 @@ body {
     	<!-- 스택 cards 컨테이너 -->
     	<div class="cards-container">
         
-        <!-- Card 1 -->
-        <div class="card">
-            <div class="icon">
-                <img src="/icons/Java.png" alt="Java">
-            </div>
-            <h2>Java</h2>
-            <p>자바입니다.</p>
-        </div>
+        	<!-- Card 1 -->
+        	<div class="card">
+            	<div class="icon">
+                	<img src="/icons/Java.png" alt="Java">
+            	</div>
+            	<h2>Java</h2>
+            	<p>자바입니다.</p>
+        	</div>
         
-        <!-- Card 2 -->
-        <div class="card">
-            <div class="icon">
-                <img src="/icons/Python.png" alt="Python">
-            </div>
-            <h2>Python</h2>
-            <p>파이썬입니다.</p>
-        </div>
+        	<!-- Card 2 -->
+        	<div class="card">
+        	    <div class="icon">
+        	        <img src="/icons/Python.png" alt="Python">
+        	    </div>
+        	    <h2>Python</h2>
+        	    <p>파이썬입니다.</p>
+        	</div>
         
-        <!-- Card 3 -->
-        <div class="card">
-            <div class="icon">
-                <img src="/icons/SpringBoot.png" alt="SpringBoot">
-            </div>
-            <h2>Spring Boot</h2>
-            <p>Spring Boot입니다.</p>
-        </div>
-        <!-- Card 4 -->
-        <div class="card">
-            <div class="icon">
-                <img src="/icons/FastAPI.svg" alt="FastAPI">
-            </div>
-            <h2>FastAPI</h2>
-            <p>FastAPI입니다.</p>
-        </div>
-        <!-- Card 5 -->
-        <div class="card">
-            <div class="icon">
-                <img src="/icons/Html.png" alt="Html">
-                <img src="/icons/Css.png" alt="Css">
-                <img src="/icons/Js.png" alt="Js">
-            </div>
-            <h2>Html & Css & Js</h2>
-            <p>Html, Css, JS 입니다.</p>
-        </div>
-        <!-- Card 6 -->
-        <div class="card">
-            <div class="icon">
-                <img src="/icons/Oracle.png" alt="Oracle">
-                <img src="/icons/MySQL.svg" alt="MySQL">
-            </div>
-            <h2>SQL</h2>
-            <p>Oracle, MySQL</p>
-        </div>
-        <!-- Card 7 -->
-        <div class="card">
-            <div class="icon">
-                <img src="/icons/git.png" alt="git">
-                <img src="/img/githubLogo.png" alt="githubLogo">
-            </div>
-            <h2>Git & GitHub</h2>
-            <p>협업 툴로 깃허브</p>
-        </div>
-        <!-- Card 8 -->
-        <div class="card">
-            <div class="icon">
-                <img src="/icons/AwsLogo.png" alt="Aws">
-            </div>
-            <h2>AWS</h2>
-            <p>S3, EC2</p>
-        </div>
-    </div>
+        	<!-- Card 3 -->
+        	<div class="card">
+        	    <div class="icon">
+        	        <img src="/icons/SpringBoot.png" alt="SpringBoot">
+        	    </div>
+        	    <h2>Spring Boot</h2>
+        	    <p>Spring Boot입니다.</p>
+       	  	</div>
+        
+        	<!-- Card 4 -->
+        	<div class="card">
+        	    <div class="icon">
+        	        <img src="/icons/FastAPI.svg" alt="FastAPI">
+        	    </div>
+        	    <h2>FastAPI</h2>
+        	    <p>FastAPI입니다.</p>
+        	</div>
+        
+        	<!-- Card 5 -->
+        	<div class="card">
+        	    <div class="icon">
+        	        <img src="/icons/Html.png" alt="Html">
+        	        <img src="/icons/Css.png" alt="Css">
+        	        <img src="/icons/Js.png" alt="Js">
+        	    </div>
+        	    <h2>Html & Css & Js</h2>
+        	    <p>Html, Css, JS 입니다.</p>
+        	</div>
+        
+        	<!-- Card 6 -->
+        	<div class="card">
+        	    <div class="icon">
+        	        <img src="/icons/Oracle.png" alt="Oracle">
+        	        <img src="/icons/MySQL.svg" alt="MySQL">
+        	    </div>
+        	    <h2>SQL</h2>
+        	    <p>Oracle, MySQL</p>
+        	</div>
+        	
+        	<!-- Card 7 -->
+        	<div class="card">
+            	<div class="icon">
+                	<img src="/icons/git.png" alt="git">
+                	<img src="/img/githubLogo.png" alt="githubLogo">
+            	</div>
+            	<h2>Git & GitHub</h2>
+            	<p>협업 툴로 깃허브</p>
+        	</div>
+        
+        	<!-- Card 8 -->
+        	<div class="card">
+            	<div class="icon">
+                	<img src="/icons/AwsLogo.png" alt="Aws">
+            	</div>
+            	<h2>AWS</h2>
+            	<p>S3, EC2</p>
+        	</div>
+    	</div>
 	</div>
 	
+	<!-- 프로젝트 소개 Wrap -->
+	<div class="MyProjectWrap">
+		
+		<!-- titleSection -->
+		<div class="title-section">
+			<h1>Featured Projects</h1>
+		</div>
+		
+		<!-- Project Cards -->
+		<div class="cards-container">
+			
+			<!-- Arti -->
+			<div class="PR_card">
+				<img class="PR_img" src="https://images-v3.develofolio.com/images/7ee23b11-941f-41ac-9cec-7cd3c1964780/project/083e361e-842d-4732-8043-104aab5d6584-student-849824_1920.jpg?w=1920" alt="ARTI">
+				<div class="PR_content">
+					<h2>PROJECT ARTI</h2>
+					<div class="icon">
+						<img src="/icons/SpringBoot.png" alt="SpringBoot">
+						<img src="/icons/Java.png" alt="Java">
+						<img src="/icons/Python.png" alt="Python">
+						<img src="/icons/MySQL.svg" alt="MySQL">
+					</div>
+					<p>AI기반 심리검사 및 동화생성 서비스</p>
+				</div>
+			</div>
+			
+			<!-- AWS ToyProject Portfolio -->
+			<div class="PR_card"></div>
+			
+			<!-- KDT Hackathon AIGO -->
+			<div class="PR_card"></div>
+			
+			<!-- BabyStep -->
+			<div class="PR_card"></div>
+			
+		</div>
+	</div>
 	
+	<!-- Award -->
+	<div class="AwardWrap">
 	
+		<!-- titleSection -->
+		<div class="title-section">
+			<h1>Award</h1>
+		</div>
+		
+		<!-- Award Entries -->
+    	<div class="award-list">
+    
+    		<!-- Award 1 -->
+        	<div class="award-item">
+            	<img class="award-logo" src="https://via.placeholder.com/50x50" alt="Award Logo">
+            	<div class="award-content">
+               		<h2>SMHRD 실전역량 프로젝트</h2>
+                	<h3>최우수상</h3>
+                	<span class="award-dates">2024.12</span>
+            	</div>
+        	</div>
+
+        	<hr>
+        	<!-- Award 2 -->
+        	<div class="award-item">
+            	<img class="award-logo" src="https://via.placeholder.com/50x50" alt="Award Logo">
+            	<div class="award-content">
+                	<h2>제 6회 KDT Hackathon</h2>
+                	<h3>직업능력심사평가원장상</h3>
+                	<span class="award-dates">2024.11</span>
+            	</div>
+        	</div>
+    	</div>
+
+	</div>
+	
+	<!-- Careers -->
+	<div class="CareersWrap">
+	
+		<!-- titleSection -->
+		<div class="title-section">
+			<h1>Careers</h1>
+		</div>
+		
+		<!-- Career Entries -->
+    	<div class="career-list">
+        
+        	<!-- Career 1 -->
+        	<div class="career-item">
+            	<img class="career-logo" src="/img/SMHRD.jpeg" alt="SMHRD">
+            	
+            	<div class="career-content">
+                	<h2 style="margin-bottom: 10px;">SMHRD DCX기반 빅데이터 분석서비스 개발자 과정(NCS) </h2>
+                	<span class="career-dates">2024.06.29 - 2024.12.20</span>
+                	<p>교육기간 : 2024.06.29 ~ 2024.12.20 ( 960h / 개근 )</p>
+                	<p>종합성적 : A+</p>
+                	<br>
+                	<p><b>Record of Subjects</b></p>
+                	<p>기본 프로그래밍 - Java / SQL </p>
+                	<p>서비스 프로그래밍 - Html, Css / Jsp, Servlet / Spring </p>
+                	<p>Big Data - Library / Crawling / Hadoop / Machine, Deep Learning </p>
+                	<p>프로젝트 - 핵심융합(우수) / 실전융합(최우수) </p>
+            	</div>
+        	</div>
+
+        	<hr>
+
+        	<!-- 
+        	<div class="career-item">
+            	<img class="career-logo" src="https://via.placeholder.com/50x50" alt="Kakao">
+            	
+            	<div class="career-content">
+                	<h2>Kakao</h2>
+                	<h3>Front-End Developer</h3>
+                	<span class="career-dates">2020 - 2022</span>
+                	<p>
+                    	Donec libero mauris, iaculis at faucibus eget, hendrerit rhoncus metus. Vestibulum aliquam viverra accumsan. Donec
+                    	efficitur augue et sollicitudin sodales.
+                	</p>
+                	<ul>
+                    	<li>Nulla pellentesque elit sem, et blandit justo ullamcorper at.</li>
+                    	<li>Sed pellentesque non turpis et malesuada.</li>
+                    	<li>Quisque ligula nunc, feugiat id felis ac, consequat porttitor eros.</li>
+                    	<li>Nunc suscipit suscipit mauris, id pharetra ante.</li>
+                    	<li>Nulla dignissim tellus eu felis rutrum hendrerit. Fusce tempor euismod convallis.</li>
+                	</ul>
+            	</div>
+        	</div> -->
+		</div>
+		
+	</div>
 	
 </div>
 
