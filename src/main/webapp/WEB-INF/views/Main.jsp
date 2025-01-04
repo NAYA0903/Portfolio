@@ -162,13 +162,49 @@
 			</div>
 			
 			<!-- AWS ToyProject Portfolio -->
-			<div class="PR_card"></div>
+			<div class="PR_card">
+				<img class="PR_img" src="https://images-v3.develofolio.com/images/7ee23b11-941f-41ac-9cec-7cd3c1964780/project/083e361e-842d-4732-8043-104aab5d6584-student-849824_1920.jpg?w=1920" alt="ARTI">
+				<div class="PR_content">
+					<h2>AWS ToyProject Portfolio</h2>
+					<div class="icon">
+						<img src="/icons/SpringBoot.png" alt="SpringBoot">
+						<img src="/icons/Java.png" alt="Java">
+						<img src="/icons/Python.png" alt="Python">
+						<img src="/icons/MySQL.svg" alt="MySQL">
+					</div>
+					<p>AI기반 심리검사 및 동화생성 서비스</p>
+				</div>
+			</div>
 			
 			<!-- KDT Hackathon AIGO -->
-			<div class="PR_card"></div>
+			<div class="PR_card">
+				<img class="PR_img" src="https://images-v3.develofolio.com/images/7ee23b11-941f-41ac-9cec-7cd3c1964780/project/083e361e-842d-4732-8043-104aab5d6584-student-849824_1920.jpg?w=1920" alt="ARTI">
+				<div class="PR_content">
+					<h2>KDT Hackathon AIGO</h2>
+					<div class="icon">
+						<img src="/icons/SpringBoot.png" alt="SpringBoot">
+						<img src="/icons/Java.png" alt="Java">
+						<img src="/icons/Python.png" alt="Python">
+						<img src="/icons/MySQL.svg" alt="MySQL">
+					</div>
+					<p>AI기반 심리검사 및 동화생성 서비스</p>
+				</div>
+			</div>
 			
 			<!-- BabyStep -->
-			<div class="PR_card"></div>
+			<div class="PR_card">
+				<img class="PR_img" src="https://images-v3.develofolio.com/images/7ee23b11-941f-41ac-9cec-7cd3c1964780/project/083e361e-842d-4732-8043-104aab5d6584-student-849824_1920.jpg?w=1920" alt="ARTI">
+				<div class="PR_content">
+					<h2>PROJECT BabyStep</h2>
+					<div class="icon">
+						<img src="/icons/SpringBoot.png" alt="SpringBoot">
+						<img src="/icons/Java.png" alt="Java">
+						<img src="/icons/Python.png" alt="Python">
+						<img src="/icons/MySQL.svg" alt="MySQL">
+					</div>
+					<p>AI기반 심리검사 및 동화생성 서비스</p>
+				</div>
+			</div>
 			
 		</div>
 	</div>
