@@ -102,6 +102,35 @@ body {
 	transform: scale(1.1);
 }
 
+/* LinkedIn */
+.LinkedIn {
+	margin-left: 25px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+	width: 50px; 
+	height: 50px;
+	border-radius: 50%; 
+}
+
+.LinkedInLogo {
+	border-radius: 50%; 
+	width: 50px; 
+	height: 50px;
+}
+
+.LinkedInLogo {
+	width: 100%; 
+	height: auto; 
+}
+
+.LinkedIn:hover {
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+	transform: scale(1.1); 
+}
+
+.LinkedInLogo:hover {
+	transform: scale(1.1);
+}
+
 /* Velog */
 .velog {
 	margin-left: 25px;
@@ -240,6 +269,18 @@ body {
     height: 25px;
 }
 
+.PR_card .icon2 {
+	text-align: right;
+}
+
+.PR_card .icon2 a {
+    text-decoration: none;
+}
+
+.PR_card .icon2 img {
+    width: 25px;
+    height: 25px;
+}
 
 .PR_img {
 	width: 100%;

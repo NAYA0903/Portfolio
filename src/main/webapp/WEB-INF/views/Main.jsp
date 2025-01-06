@@ -27,6 +27,11 @@
 							<img class="githubLogo" src="/img/githubLogo.png" alt="GithubLogo">
 						</a>							
 					</div>
+					<div class="LinkedIn">
+						<a href="https://www.linkedin.com/in/naya0903/" target="_blank" rel="noopener noreferrer">
+							<img class="LinkedInLogo" src="/img/LinkedIn.png" alt="LinkedInLogo">
+						</a>							
+					</div>
 					<div class="velog">
 						<a href="https://velog.io/@naya_0903/posts" target="_blank" rel="noopener noreferrer">
 							<img class="velogLogo" src="/img/velog.png" alt="VelogLogo">
@@ -148,7 +153,7 @@
 			
 			<!-- Arti -->
 			<div class="PR_card">
-				<img class="PR_img" src="https://images-v3.develofolio.com/images/7ee23b11-941f-41ac-9cec-7cd3c1964780/project/083e361e-842d-4732-8043-104aab5d6584-student-849824_1920.jpg?w=1920" alt="ARTI">
+				<img class="PR_img" src="/img/ARTI.png" alt="ARTI">
 				<div class="PR_content">
 					<h2>PROJECT ARTI</h2>
 					<div class="icon">
@@ -158,27 +163,42 @@
 						<img src="/icons/MySQL.svg" alt="MySQL">
 					</div>
 					<p>AI기반 심리검사 및 동화생성 서비스</p>
+					<p>프로젝트 설명</p>
+					<div class="icon2">
+						<a href="https://velog.io/@naya_0903/series/ARTI" target="_blank" rel="noopener noreferrer">
+							<img src="/img/velog.png" alt="velogLogo">
+						</a>
+						<a href="https://github.com/NAYA0903/ARTI_SMHRD" target="_blank" rel="noopener noreferrer">
+							<img src="/img/githubLogo.png" alt="GithubLogo">
+						</a>
+					</div>
 				</div>
 			</div>
 			
 			<!-- AWS ToyProject Portfolio -->
 			<div class="PR_card">
-				<img class="PR_img" src="https://images-v3.develofolio.com/images/7ee23b11-941f-41ac-9cec-7cd3c1964780/project/083e361e-842d-4732-8043-104aab5d6584-student-849824_1920.jpg?w=1920" alt="ARTI">
+				<img class="PR_img" src="/img/Portfolio.PNG" alt="ARTI">
 				<div class="PR_content">
-					<h2>AWS ToyProject Portfolio</h2>
+					<h2>ToyProject Portfolio</h2>
 					<div class="icon">
 						<img src="/icons/SpringBoot.png" alt="SpringBoot">
 						<img src="/icons/Java.png" alt="Java">
 						<img src="/icons/Python.png" alt="Python">
 						<img src="/icons/MySQL.svg" alt="MySQL">
 					</div>
-					<p>AI기반 심리검사 및 동화생성 서비스</p>
+					<p>AWS를 활용한 무중단 배포 프로젝트</p>
+					<p>프로젝트 설명</p>
+					<div class="icon2">
+						<a href="https://github.com/NAYA0903/Portfolio" target="_blank" rel="noopener noreferrer">
+							<img src="/img/githubLogo.png" alt="GithubLogo">
+						</a>
+					</div>
 				</div>
 			</div>
 			
 			<!-- KDT Hackathon AIGO -->
 			<div class="PR_card">
-				<img class="PR_img" src="https://images-v3.develofolio.com/images/7ee23b11-941f-41ac-9cec-7cd3c1964780/project/083e361e-842d-4732-8043-104aab5d6584-student-849824_1920.jpg?w=1920" alt="ARTI">
+				<img class="PR_img" src="/img/AIGO.PNG" alt="ARTI">
 				<div class="PR_content">
 					<h2>KDT Hackathon AIGO</h2>
 					<div class="icon">
@@ -187,13 +207,14 @@
 						<img src="/icons/Python.png" alt="Python">
 						<img src="/icons/MySQL.svg" alt="MySQL">
 					</div>
-					<p>AI기반 심리검사 및 동화생성 서비스</p>
+					<p>고령자 맞춤 디지털 AI 솔루션</p>
+					<p>프로젝트 설명</p>
 				</div>
 			</div>
 			
 			<!-- BabyStep -->
 			<div class="PR_card">
-				<img class="PR_img" src="https://images-v3.develofolio.com/images/7ee23b11-941f-41ac-9cec-7cd3c1964780/project/083e361e-842d-4732-8043-104aab5d6584-student-849824_1920.jpg?w=1920" alt="ARTI">
+				<img class="PR_img" src="/img/BabyStep.png" alt="BabyStep">
 				<div class="PR_content">
 					<h2>PROJECT BabyStep</h2>
 					<div class="icon">
@@ -202,7 +223,13 @@
 						<img src="/icons/Python.png" alt="Python">
 						<img src="/icons/MySQL.svg" alt="MySQL">
 					</div>
-					<p>AI기반 심리검사 및 동화생성 서비스</p>
+					<p>초보 부모를 위한 육아일정 서비스</p>
+					<p>프로젝트 설명</p>
+					<div class="icon2">
+						<a href="https://github.com/NAYA0903/BabyStep_SMHRD" target="_blank" rel="noopener noreferrer">
+							<img src="/img/githubLogo.png" alt="GithubLogo">
+						</a>
+					</div>
 				</div>
 			</div>
 			
