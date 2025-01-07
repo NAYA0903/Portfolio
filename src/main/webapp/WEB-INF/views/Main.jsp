@@ -163,7 +163,8 @@
 						<img src="/icons/MySQL.svg" alt="MySQL">
 					</div>
 					<p>AI기반 심리검사 및 동화생성 서비스</p>
-					<p>프로젝트 설명</p>
+					<p>OPEN AI와 Yolov5모델을 활용한 웹서비스로</p>
+					<p>Fast API로 구축한 실시간 AI 사이트입니다.</p>
 					<div class="icon2">
 						<a href="https://velog.io/@naya_0903/series/ARTI" target="_blank" rel="noopener noreferrer">
 							<img src="/img/velog.png" alt="velogLogo">
