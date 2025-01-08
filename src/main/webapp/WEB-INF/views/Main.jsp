@@ -188,7 +188,7 @@
 						<img src="/icons/MySQL.svg" alt="MySQL">
 					</div>
 					<p>AWS를 활용한 무중단 배포 프로젝트</p>
-					<p>프로젝트 설명</p>
+					<p>Spring Boot, Docker, NGINX, GITHUB ACTION을 이용한 프로젝트입니다.</p>
 					<div class="icon2">
 						<a href="https://github.com/NAYA0903/Portfolio" target="_blank" rel="noopener noreferrer">
 							<img src="/img/githubLogo.png" alt="GithubLogo">
