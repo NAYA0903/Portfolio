@@ -17,25 +17,27 @@ public class HealthCheckController {
 	@Value("${server.port}")
 	private String serverPort;
 	
-	@Value("${server.serverAddress}")
+	@Value("${server.address}")
 	private String serverAddress;
 	
 	@Value("${serverName}")
 	private String serverName;
 
+	/* 서버상태 점검용 체크 메서드*/
 	@GetMapping("/hc")
 	public ResponseEntity<?> healthCheck(){
 		
 		Map<String, String> responseData = new HashMap<>();
 		responseData.put("serverName", serverName);
 		responseData.put("server", serverAddress);
-		responseData.put("server", serverPort);
+		responseData.put("port", serverPort);
 		responseData.put("env", env);
 		
 		return ResponseEntity.ok(responseData);
 		
 	}
 	
+	/* 서버 환경 체크용 메서드 */
 	@GetMapping("/env")
 	public ResponseEntity<?> getEnv(){
 		

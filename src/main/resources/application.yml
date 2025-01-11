@@ -18,7 +18,7 @@ spring:
 
 server:
   port: 8088
-  serverAddress: localhost
+  address: localhost
 
 serverName: local_server
 
@@ -31,7 +31,7 @@ spring:
 
 server:
   port: 8088
-  serverAddress: 0.0.0.0
+  address: 0.0.0.0
 
 
 serverName: blue_server
@@ -45,7 +45,7 @@ spring:
 
 server:
     port: 8089
-    serverAddress: 0.0.0.0
+    address: 0.0.0.0
 
 
 serverName: green_server
