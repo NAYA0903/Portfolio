@@ -44,7 +44,7 @@ spring:
         on-profile: green
 
 server:
-    port: 8088
+    port: 8089
     address: 0.0.0.0
 
 
