@@ -8,7 +8,7 @@ public class ViewController {
 	
 	@GetMapping("/view")
 	public String MainPage() {
-		return "Main";
+		return "Portfolio";
 	}
 
 }
