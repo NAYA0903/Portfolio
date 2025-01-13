@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class ViewController {
 	
-	@GetMapping("/view")
+	@GetMapping("/naya0903")
 	public String MainPage() {
 		return "Portfolio";
 	}
