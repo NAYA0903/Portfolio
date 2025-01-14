@@ -33,7 +33,7 @@ body {
 .Pr_LeftContent {
 	flex: 2;
 	display: flex;
-	padding-left: 15%; 
+	padding-left: 10%; 
 }
 
 /* ¿Ã∏ß */
@@ -312,6 +312,10 @@ body {
     align-items: flex-start;
     gap: 20px;
     padding-bottom: 20px;
+}
+
+.awardLogodiv {
+	align-content: center;
 }
 
 .award-logo {
