@@ -18,6 +18,15 @@
 <br>
 
 # ✍ 상세 설명
+![004](https://github.com/user-attachments/assets/4a43c9dd-8176-43fb-a4cf-33d70af20527)
+
+<br>
+
+![005](https://github.com/user-attachments/assets/1022e54a-6c80-4c10-a365-aa0db868af90)
+
+<br>
+
+![006](https://github.com/user-attachments/assets/5bdb8191-b771-4fdd-87ef-1cf4ee73f03d)
 
 <br>
 
@@ -36,3 +45,6 @@
 <br>
 
 # ✏ 느낀점
+AWS가 아무래도 이슈가 많다보니 걱정이 많이 되었는데 그만큼 집중해서 공부할 수 있었다. 
+도메인을 직접 얻어서 나만의 사이트를 만들었다는 점이 너무 좋았고 이제는 트래픽 처리나 신경써야할 부분들이 많아 더욱 새롭다.
+간단한 배포였지만 더욱 공부해서 용량이 큰 프로젝트까지 배포해볼 예정이다.
